@@ -4,7 +4,7 @@
 #
 Name     : pypi-capturer
 Version  : 3.0
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/9a/98/e2cac95d1cba553b10552511fdb55043b00a99bf8c1ed913ecbc654d6bfb/capturer-3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9a/98/e2cac95d1cba553b10552511fdb55043b00a99bf8c1ed913ecbc654d6bfb/capturer-3.0.tar.gz
 Summary  : Easily capture stdout/stderr of the current process and subprocesses
@@ -13,14 +13,11 @@ License  : MIT
 Requires: pypi-capturer-license = %{version}-%{release}
 Requires: pypi-capturer-python = %{version}-%{release}
 Requires: pypi-capturer-python3 = %{version}-%{release}
-Requires: humanfriendly
+Requires: pypi(humanfriendly)
 BuildRequires : buildreq-distutils3
-Provides: capturer
-Provides: capturer-python
-Provides: capturer-python3
-BuildRequires : humanfriendly
 BuildRequires : pypi(humanfriendly)
-BuildRequires : pytest
+BuildRequires : pypi(pytest)
+BuildRequires : pypi-pytest
 
 %description
 ==============================================================================
@@ -62,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641421587
+export SOURCE_DATE_EPOCH=1641842051
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
