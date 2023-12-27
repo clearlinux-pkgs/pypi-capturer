@@ -5,7 +5,7 @@
 #
 Name     : pypi-capturer
 Version  : 3.0
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/9a/98/e2cac95d1cba553b10552511fdb55043b00a99bf8c1ed913ecbc654d6bfb/capturer-3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9a/98/e2cac95d1cba553b10552511fdb55043b00a99bf8c1ed913ecbc654d6bfb/capturer-3.0.tar.gz
 Summary  : Easily capture stdout/stderr of the current process and subprocesses
